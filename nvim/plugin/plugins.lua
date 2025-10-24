@@ -3,7 +3,17 @@ if vim.g.did_load_plugins_plugin then
 end
 vim.g.did_load_plugins_plugin = true
 
--- many plugins annoyingly require a call to a 'setup' function to be loaded,
--- even with default configs
+require('which-key').setup {
+  preset = 'modern',
+}
 
-require('nvim-surround').setup()
+require('mini.icons').setup()
+require('mini.git').setup()
+require('mini.diff').setup()
+require('mini.statusline').setup()
+require('mini.fuzzy').setup()
+require('mini.pairs').setup()
+require('mini.completion').setup()
+require('mini.comment').setup()
+require('mini.move').setup()
+require('mini.bracketed').setup()
