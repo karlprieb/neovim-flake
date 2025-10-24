@@ -1,10 +1,8 @@
-vim.loader.enable()
-
 vim.cmd.colorscheme('catppuccin-mocha')
 
 require('lsp')
 
-vim.lsp.enable({'lua_ls', 'nixd'})
+vim.lsp.enable { 'lua_ls', 'nixd' }
 
 -- Native plugins
 -- vim.cmd.filetype('plugin', 'indent', 'on')
