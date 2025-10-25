@@ -1,5 +1,21 @@
 {
   "nodes": {
+    "auto-dark-mode-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1754250335,
+        "narHash": "sha256-PhhOlq4byctWJ5rLe3cifImH56vR2+k3BZGDZdQvjng=",
+        "owner": "f-person",
+        "repo": "auto-dark-mode.nvim",
+        "rev": "e300259ec777a40b4b9e3c8e6ade203e78d15881",
+        "type": "github"
+      },
+      "original": {
+        "owner": "f-person",
+        "repo": "auto-dark-mode.nvim",
+        "type": "github"
+      }
+    },
     "flake-compat": {
       "flake": false,
       "locked": {
@@ -197,6 +213,7 @@
     },
     "root": {
       "inputs": {
+        "auto-dark-mode-nvim": "auto-dark-mode-nvim",
         "flake-utils": "flake-utils",
         "gen-luarc": "gen-luarc",
         "nixpkgs": "nixpkgs_2"

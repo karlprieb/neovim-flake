@@ -41,6 +41,7 @@ let
     conform-nvim
     which-key-nvim
     mini-nvim
+    (mkNvimPlugin inputs.auto-dark-mode-nvim "auto-dark-mode.nvim")
   ];
 
   extraPackages = with pkgs; [
