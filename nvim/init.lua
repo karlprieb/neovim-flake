@@ -1,4 +1,4 @@
-vim.cmd.colorscheme('catppuccin-mocha')
+vim.cmd.colorscheme('duskfox')
 
 require('lsp')
 
